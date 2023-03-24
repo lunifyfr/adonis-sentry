@@ -27,3 +27,11 @@ import { SentryCapture } from '@ioc:Adonis/Addons/Sentry'
 
 SentryCapture(error, ctx)
 ```
+
+## Environment
+
+```dotenv
+SENTRY_DSN=https://sentry.io/...
+SENTRY_ENVIRONMENT=production | staging | development
+SENTRY_ENABLED=true | false
+```
