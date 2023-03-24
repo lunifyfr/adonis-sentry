@@ -1,6 +1,6 @@
 {
   "name": "@lunifyfr/adonis-sentry",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "AdonisJS Sentry integration",
   "main": "build/providers/SentryProvider.js",
   "types": "build/adonis-typings/sentry.d.ts",
