@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-yarn @lunifyfr/adonis-sentry
+yarn add @lunifyfr/adonis-sentry
 node ace configure @lunifyfr/adonis-sentry
 ```
 

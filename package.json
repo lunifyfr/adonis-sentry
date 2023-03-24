@@ -20,6 +20,10 @@
     "lint": "eslint . --ext=.ts"
   },
   "author": "Emile Lepetit <emile.lepetit@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lunifyfr/adonis-sentry"
+  },
   "devDependencies": {
     "@adonisjs/auth": "^8.2.3",
     "@adonisjs/core": "^5.9.0",
@@ -37,18 +41,6 @@
   "peerDependencies": {
     "@adonisjs/auth": "^8.2.0",
     "@adonisjs/core": "^5.1.0"
-  },
-  "mrmConfig": {
-    "core": false,
-    "license": "MIT",
-    "services": [
-      "github-actions"
-    ],
-    "minNodeVersion": "16.13.1",
-    "probotApps": [
-      "stale"
-    ],
-    "runGhActionsOnWindows": true
   },
   "files": [
     "build/adonis-typings",
