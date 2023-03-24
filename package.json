@@ -77,10 +77,22 @@
       "@lunifyfr/adonis-sentry"
     ],
     "templates": {
+      "start": [
+        "tracing.ts"
+      ],
       "config": [
         "sentry.ts"
       ]
     },
+    "preloads": [
+      {
+        "file": "./start/tracing",
+        "environment": [
+          "web"
+        ],
+        "optional": true
+      }
+    ],
     "commands": [
       "@lunifyfr/adonis-sentry/build/commands/SentryPing.js"
     ]
