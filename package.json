@@ -1,7 +1,7 @@
 {
   "name": "@lunifyfr/adonis-sentry",
   "version": "0.0.0",
-  "description": "",
+  "description": "AdonisJS Sentry integration",
   "private": true,
   "main": "build/providers/SentryProvider.js",
   "types": "build/adonis-typings/sentry.d.ts",
@@ -96,5 +96,9 @@
     "commands": [
       "@lunifyfr/adonis-sentry/build/commands/SentryPing.js"
     ]
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com"
   }
 }
