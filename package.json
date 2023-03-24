@@ -52,6 +52,7 @@
     "build/adonis-typings",
     "build/commands",
     "build/providers",
+    "build/src",
     "build/templates",
     "build/instructions.md",
     "build/index.d.ts",
