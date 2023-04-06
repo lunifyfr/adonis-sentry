@@ -23,12 +23,17 @@
     "type": "git",
     "url": "https://github.com/lunifyfr/adonis-sentry"
   },
+  "dependencies": {
+    "@sentry/node": "^7.47.0",
+    "@sentry/tracing": "^7.47.0",
+    "copyfiles": "^2.4.1"
+  },
   "devDependencies": {
     "@adonisjs/auth": "^8.2.3",
     "@adonisjs/core": "^5.9.0",
     "@adonisjs/mrm-preset": "^5.0.3",
     "@adonisjs/require-ts": "^2.0.13",
-    "@types/node": "^18.13.0",
+    "@types/node": "^18.15.11",
     "del-cli": "^5.0.0",
     "eslint": "^8.34.0",
     "eslint-plugin-adonis": "^2.1.1",
@@ -51,11 +56,6 @@
     "build/index.d.ts",
     "build/index.js"
   ],
-  "dependencies": {
-    "@sentry/node": "^7.37.1",
-    "@sentry/tracing": "^7.37.1",
-    "copyfiles": "^2.4.1"
-  },
   "eslintConfig": {
     "extends": [
       "plugin:adonis/typescriptPackage"
