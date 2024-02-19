@@ -28,7 +28,7 @@ export default class ExceptionHandler extends HttpExceptionHandler {
   }
 
   public async handle(error, ctx) {
-    SentryCapture(error)
+    SentryCapture(error, ctx)
     return super.handle(error, ctx)
   }
 }
