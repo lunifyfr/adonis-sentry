@@ -5,6 +5,7 @@
   "main": "build/providers/SentryProvider.js",
   "types": "build/adonis-typings/sentry.d.ts",
   "typings": "build/adonis-typings/sentry.d.ts",
+  "license": "MIT",
   "scripts": {
     "mrm": "mrm --preset=@adonisjs/mrm-preset",
     "dev": "tsc --watch",
@@ -92,7 +93,7 @@
     ]
   },
   "publishConfig": {
-    "access": "restricted",
+    "access": "public",
     "registry": "https://npm.pkg.github.com"
   }
 }
